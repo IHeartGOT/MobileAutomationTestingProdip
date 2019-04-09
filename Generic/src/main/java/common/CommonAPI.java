@@ -9,6 +9,8 @@ import io.appium.java_client.remote.MobilePlatform;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.touch.TouchActions;
 import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
@@ -195,22 +197,22 @@ public class CommonAPI {
 
         }
     }
-//    public void scrollToElement(AppiumDriver driver, String text){
-//        MobileElement we = (MobileElement) driver.findElementByXPath(text);
-//        driver.scrollTo(we.getText());
-//    }
-//    public void alertAccept(WebDriver driver){
-//        WebDriverWait wait = new WebDriverWait(driver,5);
-//        try{
-//            wait.until(ExpectedConditions.alertIsPresent());
-//            driver.switchTo().alert().accept();
-//        }catch (Exception e){
-//            System.err.println("No alert visible in 5 seconds");
-//        }
-//    }
-//    public void scrollAndClickByName(String locator){
-//        ad.scrollTo(locator).click();
-//    }
+    public void scrollToElement(AppiumDriver driver, String text){
+        MobileElement we = (MobileElement) driver.findElementByXPath(text);
+        driver.scrollTo(we.getText());
+    }
+    public void alertAccept(WebDriver driver){
+        WebDriverWait wait = new WebDriverWait(driver,5);
+        try{
+            wait.until(ExpectedConditions.alertIsPresent());
+            driver.switchTo().alert().accept();
+        }catch (Exception e){
+            System.err.println("No alert visible in 5 seconds");
+        }
+    }
+    public void scrollAndClickByName(String locator){
+        ad.scrollTo(locator).click();
+    }
 
 }
 
