@@ -21,6 +21,10 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+import org.apache.commons.lang3.StringUtils;
+
+
+
 
 public class CommonAPI {
 
@@ -93,15 +97,15 @@ public class CommonAPI {
 
         }else if(OS.contains("Android")){
             if(appType.contains("Phone")){
-                appDirectory = new File("/Users/prodipbhowmik/IdeaProjects/MobileAutomationJanuary2019/NYP/src/app");
-                findApp = new File(appDirectory,"/nyp.apk");
+                appDirectory = new File("src/app");
+                findApp = new File(appDirectory,"ebay.apk");
                 if(deviceType.equalsIgnoreCase("RealDevice")){
                     cap = new DesiredCapabilities();
                     cap.setCapability(MobileCapabilityType.DEVICE_NAME,deviceName);
                     cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
                     cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
                     cap.setCapability(MobileCapabilityType.APP, findApp.getAbsolutePath());
-                    ad = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
+                    ad = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), cap);
                     ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
                 }else if (deviceType.equalsIgnoreCase("Emulator")){
@@ -109,9 +113,9 @@ public class CommonAPI {
                     cap = new DesiredCapabilities();
                     cap.setCapability(MobileCapabilityType.DEVICE_NAME,deviceName);
                     cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
-                    cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
+                    cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,version);
                     cap.setCapability(MobileCapabilityType.APP, findApp.getAbsolutePath());
-                    ad = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
+                    ad = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), cap);
                     ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
                 }
 
@@ -120,7 +124,7 @@ public class CommonAPI {
                     cap = new DesiredCapabilities();
                     cap.setCapability(MobileCapabilityType.DEVICE_NAME,deviceName);
                     cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
-                    cap.setCapability(MobileCapabilityType.PLATFORM_VERSION, version);
+                    cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,version);
                     cap.setCapability(MobileCapabilityType.APP, findApp.getAbsolutePath());
                     ad = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), cap);
                     ad.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -213,6 +217,13 @@ public class CommonAPI {
     public void scrollAndClickByName(String locator){
         ad.scrollTo(locator).click();
     }
+
+    public static String convertToString(String st) {
+        String splitString = "";
+        splitString = StringUtils.join(StringUtils.splitByCharacterTypeCamelCase(st), ' ');
+        return splitString;
+    }
+
 
 }
 

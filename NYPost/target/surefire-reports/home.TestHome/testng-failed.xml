@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [home.TestHome]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="home.TestHome">
+        <methods>
+          <include name="TestOpinion"/>
+          <include name="TestSports"/>
+          <include name="TestMedia"/>
+          <include name="TestTopStories"/>
+          <include name="TestVideot"/>
+          <include name="TestFashion"/>
+          <include name="TestSavedArticles"/>
+          <include name="TestBrgBtn"/>
+          <include name="TestEntertainment"/>
+          <include name="TestAbout"/>
+          <include name="TestArticles"/>
+          <include name="TestPhotos"/>
+          <include name="TestRealEstate"/>
+          <include name="TestBusiness"/>
+          <include name="TestTech"/>
+          <include name="TestAlert"/>
+          <include name="TestNews"/>
+          <include name="TestPageSix"/>
+          <include name="TestLiving"/>
+          <include name="TestMetro"/>
+        </methods>
+      </class> <!-- home.TestHome -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [home.TestHome] -->

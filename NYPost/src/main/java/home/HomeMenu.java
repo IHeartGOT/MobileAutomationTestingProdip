@@ -4,6 +4,7 @@ import common.CommonAPI;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
+import reporting.TestLogger;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +12,8 @@ import java.util.List;
 public class HomeMenu extends CommonAPI {
 
     @FindBy(xpath = "//android.widget.ImageButton[@content-desc='Open menu']")
-    public WebElement btnBurger;
+    WebElement btnBurger;
+
     @FindBy(xpath = "//android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.support.v4.widget.DrawerLayout[1]/android.widget.RelativeLayout[1]/android.view.View[1]/android.support.v7.widget.LinearLayoutCompat[1]/android.widget.TextView[1]")
     public WebElement btnSearch;
     @FindBy(xpath = "//android.widget.RelativeLayout[1]/android.widget.TextView[1]")
@@ -33,9 +35,12 @@ public class HomeMenu extends CommonAPI {
 
     String mainMenuArr[] = {"TOP STORIES","SAVED ARTICLES","NEWS","METRO","PAGE SIX","SPORTS","BUSINESS","OPINION","ENTERTAINMENT","FASHION","LIVING","MEDIA","TECH","REAL ESTATE","PHOTOS","VIDEO","ABOUT"};
 
-    public WebElement getSecondContinue(){return secondContinue;}
+    public WebElement getSecondContinue(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return secondContinue;}
 
     public void setAlertTendingNews(String condition) {
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         if (alertTendingNews.get(0).isDisplayed()) {
             switch (condition) {
                 case "yes":
@@ -50,6 +55,7 @@ public class HomeMenu extends CommonAPI {
 
 
     public void getMenu(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getSecondContinue ().click ();
         btnBurger.click();
 

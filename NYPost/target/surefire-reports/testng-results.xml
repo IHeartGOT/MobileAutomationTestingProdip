@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="20" failed="0" total="20" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="home.TestHome" duration-ms="46" started-at="2019-04-09T09:45:17Z" finished-at="2019-04-09T09:45:17Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="46" started-at="2019-04-09T09:45:17Z" finished-at="2019-04-09T09:45:17Z">
+      <class name="home.TestHome">
+        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHome@29ee9faa]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'OS' is required by @Configuration on method setUp but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'OS' is required by @Configuration on method setUp but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParameters(Parameters.java:148)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:197)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:821)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1131)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:124)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:773)
+	at org.testng.TestRunner.run(TestRunner.java:623)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="TestAbout()[pri:0, instance:home.TestHome@29ee9faa]" name="TestAbout" duration-ms="6" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAbout -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.TestHome@29ee9faa]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="TestAlert()[pri:0, instance:home.TestHome@29ee9faa]" name="TestAlert" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAlert -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHome@29ee9faa]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.TestHome@29ee9faa]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHome@29ee9faa]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="TestArticles()[pri:0, instance:home.TestHome@29ee9faa]" name="TestArticles" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestArticles -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.TestHome@29ee9faa]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="TestBrgBtn()[pri:0, instance:home.TestHome@29ee9faa]" name="TestBrgBtn" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestBrgBtn -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHome@29ee9faa]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.TestHome@29ee9faa]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="TestBusiness()[pri:0, instance:home.TestHome@29ee9faa]" name="TestBusiness" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestBusiness -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHome@29ee9faa]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="TestEntertainment()[pri:0, instance:home.TestHome@29ee9faa]" name="TestEntertainment" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestEntertainment -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHome@29ee9faa]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.TestHome@29ee9faa]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="TestFashion()[pri:0, instance:home.TestHome@29ee9faa]" name="TestFashion" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFashion -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.TestHome@29ee9faa]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHome@29ee9faa]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.TestHome@29ee9faa]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHome@29ee9faa]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHome@29ee9faa]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.TestHome@29ee9faa]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="TestLiving()[pri:0, instance:home.TestHome@29ee9faa]" name="TestLiving" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestLiving -->
+        <test-method status="SKIP" signature="TestMetro()[pri:0, instance:home.TestHome@29ee9faa]" name="TestMetro" duration-ms="1" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMetro -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHome@29ee9faa]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="TestMedia()[pri:0, instance:home.TestHome@29ee9faa]" name="TestMedia" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMedia -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.TestHome@29ee9faa]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.TestHome@29ee9faa]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHome@29ee9faa]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="TestNews()[pri:0, instance:home.TestHome@29ee9faa]" name="TestNews" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNews -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.TestHome@29ee9faa]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="TestOpinion()[pri:0, instance:home.TestHome@29ee9faa]" name="TestOpinion" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestOpinion -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHome@29ee9faa]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.TestHome@29ee9faa]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHome@29ee9faa]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.TestHome@29ee9faa]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="TestPageSix()[pri:0, instance:home.TestHome@29ee9faa]" name="TestPageSix" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPageSix -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHome@29ee9faa]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.TestHome@29ee9faa]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="TestPhotos()[pri:0, instance:home.TestHome@29ee9faa]" name="TestPhotos" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestPhotos -->
+        <test-method status="SKIP" signature="TestRealEstate()[pri:0, instance:home.TestHome@29ee9faa]" name="TestRealEstate" duration-ms="1" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestRealEstate -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHome@29ee9faa]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHome@29ee9faa]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.TestHome@29ee9faa]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="TestSavedArticles()[pri:0, instance:home.TestHome@29ee9faa]" name="TestSavedArticles" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSavedArticles -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.TestHome@29ee9faa]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.TestHome@29ee9faa]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="TestSports()[pri:0, instance:home.TestHome@29ee9faa]" name="TestSports" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSports -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHome@29ee9faa]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.TestHome@29ee9faa]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="TestTech()[pri:0, instance:home.TestHome@29ee9faa]" name="TestTech" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTech -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHome@29ee9faa]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="TestTopStories()[pri:0, instance:home.TestHome@29ee9faa]" name="TestTopStories" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestTopStories -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.TestHome@29ee9faa]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHome@29ee9faa]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="cleanUpApp()[pri:0, instance:home.TestHome@29ee9faa]" name="cleanUpApp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUpApp -->
+        <test-method status="SKIP" signature="TestVideot()[pri:0, instance:home.TestHome@29ee9faa]" name="TestVideot" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestVideot -->
+        <test-method status="SKIP" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:home.TestHome@29ee9faa]" name="setUp" is-config="true" duration-ms="0" started-at="2019-04-09T05:45:17Z" finished-at="2019-04-09T05:45:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- home.TestHome -->
+    </test> <!-- Command line test -->
+  </suite> <!-- home.TestHome -->
+</testng-results>

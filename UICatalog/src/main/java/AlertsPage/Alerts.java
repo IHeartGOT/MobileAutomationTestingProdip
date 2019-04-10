@@ -25,4 +25,6 @@ public class Alerts extends CommonAPI {
     public void showSecureTextInput(){
         clickByXpath("//UIAApplication[1]/UIAWindow[2]/UIATableView[1]/UIATableCell[13]");
     }
+
+
 }
