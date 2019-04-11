@@ -38,7 +38,7 @@ public class CommonAPI {
     public File findApp = null;
     public DesiredCapabilities cap = null;
 
-    @Parameters({"OS","appType","deviceType","version", "deviceName"})
+    @Parameters({"OS","appType","deviceType","deviceName","version"})
     @BeforeMethod
     public void setUp(String OS,String appType,String deviceType,String deviceName,
                       String version)throws IOException,InterruptedException{
@@ -98,7 +98,7 @@ public class CommonAPI {
         }else if(OS.contains("Android")){
             if(appType.contains("Phone")){
                 appDirectory = new File("src/app");
-                findApp = new File(appDirectory,"ebay.apk");
+                findApp = new File(appDirectory,"nyp.apk");
                 if(deviceType.equalsIgnoreCase("RealDevice")){
                     cap = new DesiredCapabilities();
                     cap.setCapability(MobileCapabilityType.DEVICE_NAME,deviceName);
