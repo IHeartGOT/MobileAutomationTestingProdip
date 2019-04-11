@@ -37,10 +37,16 @@ public class TestHome extends CommonAPI {
         homeMenu.DealPage();
     }
 
-    @Test (timeOut = 4000)
+    @Test
     public void TestBabyPage(){
         HomeMenu homeMenu = PageFactory.initElements(ad, HomeMenu.class);
         homeMenu.CategoriesPage();
+    }
+
+    @Test
+    public void TestFeatured(){
+        HomeMenu homeMenu = PageFactory.initElements(ad, HomeMenu.class);
+        homeMenu.FeauturedPage();
     }
 
 

@@ -25,11 +25,11 @@ public class HomeMenu extends CommonAPI {
     WebElement deals;
     @FindBy(xpath = "//android.widget.TextView[@content-desc=\"Categories button\"]")
     WebElement categories;
-    @FindBy(className="_highlighter-box_6a798\"")
+    @FindBy(xpath="//android.widget.TextView[@text='Baby']")
     WebElement baby;
-//    @FindBy(xpath = "//android.widget.TextView[@content-desc=\"Deals button\"]")
-//    WebElement deals;
-//    @FindBy(xpath = "//android.widget.TextView[@content-desc=\"Deals button\"]")
+    @FindBy(xpath = "//android.widget.TextView[@text='FEATURED']")
+    WebElement featured;
+//    @FindBy(xpath = "//android.widget.TextView[@text='FEATURED']")
 //    WebElement deals;
 
 
@@ -69,6 +69,12 @@ public class HomeMenu extends CommonAPI {
         return baby;
     }
 
+    public WebElement getFeatured() {
+        //        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return featured;
+    }
+
+
 
 
     public void BRGRMenu(){
@@ -94,7 +100,11 @@ public class HomeMenu extends CommonAPI {
     public void CategoriesPage(){
         getCategories().click();
         getBaby().click();
+    }
 
+    public void FeauturedPage(){
+        getDeals().click();
+        getFeatured().click();
     }
 
 
