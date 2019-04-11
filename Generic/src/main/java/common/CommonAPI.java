@@ -98,7 +98,7 @@ public class CommonAPI {
         }else if(OS.contains("Android")){
             if(appType.contains("Phone")){
                 appDirectory = new File("src/app");
-                findApp = new File(appDirectory,"nyp.apk");
+                findApp = new File(appDirectory,"ebay.apk");
                 if(deviceType.equalsIgnoreCase("RealDevice")){
                     cap = new DesiredCapabilities();
                     cap.setCapability(MobileCapabilityType.DEVICE_NAME,deviceName);

@@ -12,4 +12,10 @@ public class TestHome extends CommonAPI {
        HomeMenu homeMenu = PageFactory.initElements(ad, HomeMenu.class);
        homeMenu.BRGRMenu();
     }
+
+    @Test
+    public void TestSearchBox(){
+        HomeMenu homeMenu = PageFactory.initElements(ad, HomeMenu.class);
+        homeMenu.Search();
+    }
 }
