@@ -24,4 +24,18 @@ public class TestHome extends CommonAPI {
         HomeMenu homeMenu = PageFactory.initElements(ad, HomeMenu.class);
         homeMenu.Messages();
     }
+
+    @Test
+    public void TestSellPage(){
+        HomeMenu homeMenu = PageFactory.initElements(ad, HomeMenu.class);
+        homeMenu.SellPage();
+    }
+
+    @Test
+    public void TestDealPage(){
+        HomeMenu homeMenu = PageFactory.initElements(ad, HomeMenu.class);
+        homeMenu.DealPage();
+    }
+
+
 }
