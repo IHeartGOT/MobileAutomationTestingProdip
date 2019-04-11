@@ -23,7 +23,14 @@ public class HomeMenu extends CommonAPI {
     WebElement selling;
     @FindBy(xpath = "//android.widget.TextView[@content-desc=\"Deals button\"]")
     WebElement deals;
-
+    @FindBy(xpath = "//android.widget.TextView[@content-desc=\"Categories button\"]")
+    WebElement categories;
+    @FindBy(className="_highlighter-box_6a798\"")
+    WebElement baby;
+//    @FindBy(xpath = "//android.widget.TextView[@content-desc=\"Deals button\"]")
+//    WebElement deals;
+//    @FindBy(xpath = "//android.widget.TextView[@content-desc=\"Deals button\"]")
+//    WebElement deals;
 
 
     public WebElement getBrgrbtn(){
@@ -50,7 +57,19 @@ public class HomeMenu extends CommonAPI {
         //        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return deals;
     }
-    
+
+    public WebElement getCategories(){
+        //        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return categories;
+    }
+
+
+    public WebElement getBaby() {
+        //        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        return baby;
+    }
+
+
 
     public void BRGRMenu(){
         getBrgrbtn().click();
@@ -71,6 +90,14 @@ public class HomeMenu extends CommonAPI {
     public void DealPage(){
         getDeals().click();
     }
+
+    public void CategoriesPage(){
+        getCategories().click();
+        getBaby().click();
+
+    }
+
+
 
 
 
