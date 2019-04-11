@@ -17,6 +17,9 @@ public class HomeMenu extends CommonAPI {
     WebElement brgrbtn;
     @FindBy(className = "_highlighter-box_6a798")
     WebElement searchBox;
+    @FindBy(id = "com.ebay.mobile:id/recycler_view_main")
+    WebElement messages;
+
 
     public WebElement getBrgrbtn(){
 //        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
@@ -26,7 +29,11 @@ public class HomeMenu extends CommonAPI {
     public WebElement getSearchBox(){
 //        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return getSearchBox();
+    }
 
+    public WebElement getMessages(){
+        //        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+    return messages;
     }
 
     public void BRGRMenu(){
@@ -35,6 +42,10 @@ public class HomeMenu extends CommonAPI {
 
     public void Search(){
         getSearchBox().sendKeys("toys");
+    }
+
+    public void Messages(){
+        getMessages().click();
     }
 
 }
