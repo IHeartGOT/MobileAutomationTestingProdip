@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Android test suite on Android Phone">
+<suite name="EBAY test on Android Phone">
 
     <parameter name="OS" value="Android"/>
     <parameter name="appType" value="Phone"/>
@@ -11,8 +11,12 @@
     <parameter name="appName" value="ebay.apk"/>
 
     <test name="Go to Home page" preserve-order="true">
+<!--        <groups>-->
+<!--            <run>-->
+<!--                <include name="hi"/>-->
+<!--            </run>-->
+<!--        </groups>-->
         <classes>
-            <!--<class name="articles.ArticleTest"/>-->
             <class name="home.TestHome"/>
         </classes>
     </test>

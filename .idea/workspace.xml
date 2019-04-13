@@ -7,10 +7,26 @@
       <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/Extent-Report/ExtentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/Extent-Report/untitled folder/ExtentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/src/main/java/home/HomeMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/main/java/home/HomeMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/src/test/java/home/TestHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/java/home/TestHome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/classes/home/HomeMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/classes/home/HomeMenu.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/EbayTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/EbayTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Generic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ebay/target/test-classes/home/TestHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/Ebay/target/test-classes/home/TestHome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ApplicationLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/ExtentTestManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generic/target/classes/reporting/TestLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/Extent-Report/ExtentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NYPost/Extent-Report/untitled folder/ExtentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UICatalog/Extent-Report/ExtentReport.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UICatalog/Extent-Report/untitled folder/ExtentReport.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,31 +46,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="53" selection-start-line="53" selection-end-line="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/PickersPage/Picker.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="100" column="53" selection-start-line="100" selection-start-column="53" selection-end-line="100" selection-end-column="53" />
+            <state relative-caret-position="235">
+              <caret line="214" column="9" lean-forward="true" selection-start-line="214" selection-start-column="9" selection-end-line="214" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,80 +58,76 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/NYPost/Extent-Report/untitled folder/ExtentReport.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UICatalog/Extent-Report/untitled folder/ExtentReport.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+            <state relative-caret-position="38">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NYPost/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UICatalog/pom.xml">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+            <state relative-caret-position="-100">
+              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/home/TestHome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NYPost/src/test/resources/NYPostTestRunner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+            <state relative-caret-position="137">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/home/TestHome.java">
+        <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/home/HomeMenu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+            <state relative-caret-position="-235">
+              <caret line="73" selection-start-line="72" selection-end-line="73" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3066#3067#0" expanded="true" />
+                <element signature="e#3113#3114#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/home/HomeMenu.java">
+        <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2844#2845#0" expanded="true" />
-                <element signature="e#2880#2881#0" expanded="true" />
-                <element signature="e#2907#2908#0" expanded="true" />
-                <element signature="e#2954#2955#0" expanded="true" />
-                <element signature="e#2983#2984#0" expanded="true" />
-                <element signature="e#3020#3021#0" expanded="true" />
-                <element signature="e#3049#3050#0" expanded="true" />
-                <element signature="e#3085#3086#0" expanded="true" />
-                <element signature="e#3114#3115#0" expanded="true" />
-                <element signature="e#3148#3149#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -156,10 +147,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
         <option value="$PROJECT_DIR$/UICatalog/src/main/java/home/HomeMenu.java" />
         <option value="$PROJECT_DIR$/NYPost/src/test/java/home/TestHome.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" />
         <option value="$PROJECT_DIR$/UICatalog/src/main/java/AlertsPage/Alerts.java" />
         <option value="$PROJECT_DIR$/UICatalog/src/main/java/ButtonsPage/Buttons.java" />
         <option value="$PROJECT_DIR$/UICatalog/src/main/java/ControlsPage/Controls.java" />
@@ -185,11 +174,14 @@
         <option value="$PROJECT_DIR$/UICatalog/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Generic/pom.xml" />
-        <option value="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" />
         <option value="$PROJECT_DIR$/NYPost/src/test/resources/NYPostTestRunner.xml" />
         <option value="$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java" />
-        <option value="$PROJECT_DIR$/Ebay/src/main/java/home/HomeMenu.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" />
         <option value="$PROJECT_DIR$/Ebay/src/test/java/home/TestHome.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" />
+        <option value="$PROJECT_DIR$/Ebay/src/main/java/home/HomeMenu.java" />
       </list>
     </option>
   </component>
@@ -205,12 +197,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="MobileAutomationProdip" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="MobileAutomationProdip" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+          <item name="Generic" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -248,14 +235,13 @@
               <item name="MobileAutomationProdip" type="b2602c69:ProjectViewProjectNode" />
               <item name="MobileAutomationProdip" type="462c0819:PsiDirectoryNode" />
               <item name="Ebay" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MobileAutomationProdip" type="b2602c69:ProjectViewProjectNode" />
               <item name="MobileAutomationProdip" type="462c0819:PsiDirectoryNode" />
               <item name="Ebay" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MobileAutomationProdip" type="b2602c69:ProjectViewProjectNode" />
@@ -351,7 +337,29 @@
             <path>
               <item name="MobileAutomationProdip" type="b2602c69:ProjectViewProjectNode" />
               <item name="MobileAutomationProdip" type="462c0819:PsiDirectoryNode" />
+              <item name="Generic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="reporting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MobileAutomationProdip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileAutomationProdip" type="462c0819:PsiDirectoryNode" />
               <item name="NYPost" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MobileAutomationProdip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileAutomationProdip" type="462c0819:PsiDirectoryNode" />
+              <item name="NYPost" type="462c0819:PsiDirectoryNode" />
+              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MobileAutomationProdip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileAutomationProdip" type="462c0819:PsiDirectoryNode" />
+              <item name="NYPost" type="462c0819:PsiDirectoryNode" />
+              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
+              <item name="untitled folder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MobileAutomationProdip" type="b2602c69:ProjectViewProjectNode" />
@@ -386,6 +394,19 @@
               <item name="MobileAutomationProdip" type="462c0819:PsiDirectoryNode" />
               <item name="UICatalog" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MobileAutomationProdip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileAutomationProdip" type="462c0819:PsiDirectoryNode" />
+              <item name="UICatalog" type="462c0819:PsiDirectoryNode" />
+              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MobileAutomationProdip" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MobileAutomationProdip" type="462c0819:PsiDirectoryNode" />
+              <item name="UICatalog" type="462c0819:PsiDirectoryNode" />
+              <item name="Extent-Report" type="462c0819:PsiDirectoryNode" />
+              <item name="untitled folder" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -395,25 +416,25 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554798850358" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/NYPost/src/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Generic/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/UICatalog/src" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Generic/src/main/java" />
+      <recent name="$PROJECT_DIR$/UICatalog" />
+      <recent name="$PROJECT_DIR$/NYPost" />
+      <recent name="$PROJECT_DIR$/Ebay" />
+      <recent name="$PROJECT_DIR$/NYPost/src/app" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="home" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/NYPost/src/app" />
-      <recent name="$PROJECT_DIR$/UICatalog/src/test/java/TestPage" />
-      <recent name="$PROJECT_DIR$/UICatalog/src/main/java" />
-      <recent name="$PROJECT_DIR$/UICatalog" />
-      <recent name="$PROJECT_DIR$/NYPost/src/test" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/UICatalog/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -470,34 +491,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_MobileAutomationProdip_Ebay_src_test_resources_EbayTestRunner_xml - 2019.04.11 at 13h 03m 49s.xml">
+    <history-entry file="_Users_prodipbhowmik_IdeaProjects_MobileAutomationProdip_Ebay_src_test_resources_EbayTestRunner_xml - 2019.04.12 at 15h 51m 47s.xml">
       <configuration name="/Users/prodipbhowmik/IdeaProjects/MobileAutomationProdip/Ebay/src/test/resources/EbayTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_MobileAutomationProdip_Ebay_src_test_resources_EbayTestRunner_xml - 2019.04.11 at 13h 07m 44s.xml">
+    <history-entry file="_Users_prodipbhowmik_IdeaProjects_MobileAutomationProdip_Ebay_src_test_resources_EbayTestRunner_xml - 2019.04.12 at 15h 52m 28s.xml">
       <configuration name="/Users/prodipbhowmik/IdeaProjects/MobileAutomationProdip/Ebay/src/test/resources/EbayTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_MobileAutomationProdip_Ebay_src_test_resources_EbayTestRunner_xml - 2019.04.11 at 13h 10m 33s.xml">
+    <history-entry file="_Users_prodipbhowmik_IdeaProjects_MobileAutomationProdip_Ebay_src_test_resources_EbayTestRunner_xml - 2019.04.12 at 15h 59m 16s.xml">
       <configuration name="/Users/prodipbhowmik/IdeaProjects/MobileAutomationProdip/Ebay/src/test/resources/EbayTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_MobileAutomationProdip_Ebay_src_test_resources_EbayTestRunner_xml - 2019.04.11 at 13h 17m 37s.xml">
+    <history-entry file="_Users_prodipbhowmik_IdeaProjects_MobileAutomationProdip_Ebay_src_test_resources_EbayTestRunner_xml - 2019.04.12 at 16h 02m 02s.xml">
       <configuration name="/Users/prodipbhowmik/IdeaProjects/MobileAutomationProdip/Ebay/src/test/resources/EbayTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_MobileAutomationProdip_Ebay_src_test_resources_EbayTestRunner_xml - 2019.04.11 at 13h 47m 17s.xml">
+    <history-entry file="_Users_prodipbhowmik_IdeaProjects_MobileAutomationProdip_Ebay_src_test_resources_EbayTestRunner_xml - 2019.04.12 at 16h 09m 15s.xml">
       <configuration name="/Users/prodipbhowmik/IdeaProjects/MobileAutomationProdip/Ebay/src/test/resources/EbayTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_MobileAutomationProdip_Ebay_src_test_resources_EbayTestRunner_xml - 2019.04.11 at 13h 50m 39s.xml">
+    <history-entry file="_Users_prodipbhowmik_IdeaProjects_MobileAutomationProdip_Ebay_src_test_resources_EbayTestRunner_xml - 2019.04.12 at 16h 14m 57s.xml">
       <configuration name="/Users/prodipbhowmik/IdeaProjects/MobileAutomationProdip/Ebay/src/test/resources/EbayTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_MobileAutomationProdip_Ebay_src_test_resources_EbayTestRunner_xml - 2019.04.11 at 13h 58m 54s.xml">
+    <history-entry file="_Users_prodipbhowmik_IdeaProjects_MobileAutomationProdip_Ebay_src_test_resources_EbayTestRunner_xml - 2019.04.12 at 16h 18m 33s.xml">
       <configuration name="/Users/prodipbhowmik/IdeaProjects/MobileAutomationProdip/Ebay/src/test/resources/EbayTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_MobileAutomationProdip_Ebay_src_test_resources_EbayTestRunner_xml - 2019.04.11 at 14h 00m 50s.xml">
+    <history-entry file="_Users_prodipbhowmik_IdeaProjects_MobileAutomationProdip_Ebay_src_test_resources_EbayTestRunner_xml - 2019.04.12 at 16h 22m 14s.xml">
       <configuration name="/Users/prodipbhowmik/IdeaProjects/MobileAutomationProdip/Ebay/src/test/resources/EbayTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_MobileAutomationProdip_Ebay_src_test_resources_EbayTestRunner_xml - 2019.04.11 at 15h 16m 10s.xml">
+    <history-entry file="_Users_prodipbhowmik_IdeaProjects_MobileAutomationProdip_Ebay_src_test_resources_EbayTestRunner_xml - 2019.04.12 at 21h 01m 54s.xml">
       <configuration name="/Users/prodipbhowmik/IdeaProjects/MobileAutomationProdip/Ebay/src/test/resources/EbayTestRunner.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_prodipbhowmik_IdeaProjects_MobileAutomationProdip_Ebay_src_test_resources_EbayTestRunner_xml - 2019.04.11 at 15h 23m 04s.xml">
+    <history-entry file="_Users_prodipbhowmik_IdeaProjects_MobileAutomationProdip_Ebay_src_test_resources_EbayTestRunner_xml - 2019.04.12 at 21h 04m 29s.xml">
       <configuration name="/Users/prodipbhowmik/IdeaProjects/MobileAutomationProdip/Ebay/src/test/resources/EbayTestRunner.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -514,7 +535,7 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21001616" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29321486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -523,15 +544,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8836834" visible="true" weight="0.45068493" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.88206786" weight="0.10821918" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.8941842" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4983845" weight="0.2109589" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.11631664" side_tool="true" visible="true" weight="0.45068493" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.10500808" side_tool="true" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32876712" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48869145" weight="0.32876712" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.89499193" visible="true" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -545,24 +566,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/home.java" />
-    <entry file="file://$PROJECT_DIR$/Ebay/Extent-Report/untitled folder/ExtentReport.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NYPost/Extent-Report/untitled folder/ExtentReport.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UICatalog/Extent-Report/untitled folder/ExtentReport.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/UICatalog/src/main/java/home/HomeMenu.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/7.0.0/java-client-7.0.0.jar!/io/appium/java_client/AppiumDriver.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -575,13 +578,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="645">
           <caret line="91" column="11" selection-start-line="91" selection-start-column="11" selection-end-line="91" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
         </state>
       </provider>
     </entry>
@@ -754,31 +750,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UICatalog/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/NYPost/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/target/test-classes/EbayTestRunner.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -789,49 +778,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java">
+    <entry file="file://$PROJECT_DIR$/UICatalog/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="100" column="53" selection-start-line="100" selection-start-column="53" selection-end-line="100" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="465">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/test/resources/EbayTestRunner.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="65" column="27" selection-start-line="65" selection-start-column="27" selection-end-line="65" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="42" column="12" selection-start-line="39" selection-start-column="24" selection-end-line="42" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/Extent-Report/untitled folder/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NYPost/Extent-Report/untitled folder/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UICatalog/Extent-Report/untitled folder/ExtentReport.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/home/HomeMenu.java">
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2844#2845#0" expanded="true" />
-            <element signature="e#2880#2881#0" expanded="true" />
-            <element signature="e#2907#2908#0" expanded="true" />
-            <element signature="e#2954#2955#0" expanded="true" />
-            <element signature="e#2983#2984#0" expanded="true" />
-            <element signature="e#3020#3021#0" expanded="true" />
-            <element signature="e#3049#3050#0" expanded="true" />
-            <element signature="e#3085#3086#0" expanded="true" />
-            <element signature="e#3114#3115#0" expanded="true" />
-            <element signature="e#3148#3149#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Ebay/src/test/java/home/TestHome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state relative-caret-position="137">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.0/commons-lang3-3.0.jar!/org/apache/commons/lang3/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2455">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/common/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="214" column="9" lean-forward="true" selection-start-line="214" selection-start-column="9" selection-end-line="214" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-100">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ebay/src/main/java/home/HomeMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-235">
+          <caret line="73" selection-start-line="72" selection-end-line="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3066#3067#0" expanded="true" />
+            <element signature="e#3113#3114#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -887,7 +929,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Ebay</last-edited>
+          <last-edited>Generic</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

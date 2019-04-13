@@ -13,17 +13,17 @@ public class HomeMenu extends CommonAPI {
         PageFactory.initElements(ad, this);
 
     }
-    @FindBy(xpath = "//android.widget.ImageButton[@content-desc=\"Main navigation, open\"]")
+    @FindBy(xpath = "//android.widget.ImageButton[@content-desc='Main navigation, open']")
     WebElement brgrbtn;
-    @FindBy(className = "_highlighter-box_6a798")
+    @FindBy(xpath = "//android.widget.TextView[@resource-id='com.ebay.mobile:id/search_box']")
     WebElement searchBox;
     @FindBy(id = "com.ebay.mobile:id/recycler_view_main")
     WebElement messages;
-    @FindBy(xpath = "/android.widget.TextView[@content-desc=\"Selling button\"]")
+    @FindBy(xpath = "//android.widget.TextView[@text='SELLING']")
     WebElement selling;
-    @FindBy(xpath = "//android.widget.TextView[@content-desc=\"Deals button\"]")
+    @FindBy(xpath = "//android.widget.TextView[@text='DEALS']")
     WebElement deals;
-    @FindBy(xpath = "//android.widget.TextView[@content-desc=\"Categories button\"]")
+    @FindBy(xpath = "//android.widget.TextView[@text='CATEGORIES']")
     WebElement categories;
     @FindBy(xpath="//android.widget.TextView[@text='Baby']")
     WebElement baby;
@@ -40,37 +40,37 @@ public class HomeMenu extends CommonAPI {
 
     public WebElement getSearchBox(){
 //        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
-        return getSearchBox();
+        return searchBox;
     }
 
     public WebElement getMessages(){
-        //        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+//                TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
     return messages;
     }
 
     public WebElement getSelling(){
-        //        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+//                TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return selling;
     }
 
     public WebElement getDeals(){
-        //        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+//                TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return deals;
     }
 
     public WebElement getCategories(){
-        //        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+//                TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return categories;
     }
 
 
     public WebElement getBaby() {
-        //        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+//                TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return baby;
     }
 
     public WebElement getFeatured() {
-        //        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+//                TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         return featured;
     }
 
@@ -86,10 +86,12 @@ public class HomeMenu extends CommonAPI {
     }
 
     public void Messages(){
+
         getMessages().click();
     }
 
     public void SellPage(){
+
         getSelling().click();
     }
 
